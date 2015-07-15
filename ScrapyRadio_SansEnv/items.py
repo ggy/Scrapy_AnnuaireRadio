@@ -11,3 +11,6 @@ class ScrapyRadioItem(Item):
     Frequence = Field()
     Radio = Field()
     Intensite = Field()
+
+class BigCityItem(Item):
+    City = Field()
